@@ -1,0 +1,72 @@
+body {
+  font-family: var(--main-font);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  padding-top: 40px;
+}
+
+.qr-box {
+  width: 320px;
+  height: 497px;
+  border-radius: 22px;
+  background-color: var(--main-color);
+  margin: 0 auto;
+}
+
+.qr__img {
+  width: 288px;
+  height: 288px;
+  border-radius: 12px;
+  margin: 16px 16px;
+}
+
+.qr__title,
+.qr__undertitle {
+  font-family: var(--main-font);
+  text-align: center;
+  width: 260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.qr__title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--main-header-color);
+  padding-top: 4px;
+  padding-bottom: 15px;
+}
+
+.qr__undertitle {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--undertitle-color);
+}
+
+:root {
+  --main-font: "Outfit", sans-serif;
+  --main-color: hsl(0, 0%, 100%);
+  --main-header-color: hsl(218, 44%, 22%);
+  --undertitle-color: hsl(220, 15%, 55%);
+  --background-color: hsl(212, 45%, 89%);
+}/*# sourceMappingURL=main.css.map */
